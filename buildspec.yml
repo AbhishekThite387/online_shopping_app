@@ -43,11 +43,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: '.'
-  discard-paths: no
-  exclude-patterns:
-    - 'node_modules/**/*'
-    - '.git/**/*'
-    - '.gitignore'
-    - 'README.md'
-    - 'package-lock.json'
